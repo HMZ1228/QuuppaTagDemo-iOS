@@ -1,0 +1,62 @@
+/* en.lproj/Localizable.strings — QuuppaTagDemo v3.0
+   Reference strings for future NSLocalizedString migration.
+   Runtime strings are currently resolved via the Loc() helper
+   in ViewController.m using the QLKey enum. */
+
+/* ── App ────────────────────────────────────────────────────────────── */
+"app_title"                   = "QuuppaTag";
+
+/* ── Tag ID card ────────────────────────────────────────────────────── */
+"tag_id_label"                = "TAG ID";
+"copy"                        = "Copy";
+"copied"                      = "Copied";
+"random"                      = "Random";
+"manual"                      = "Manual";
+"cancel"                      = "Cancel";
+"apply"                       = "Apply";
+"placeholder_hex"             = "e.g.  112233445566";
+"history_label"               = "Recent IDs";
+"history_empty"               = "No history yet";
+"clear_history"               = "Clear History";
+
+/* ── Scene preset section ───────────────────────────────────────────── */
+"scene_preset"                = "SCENE PRESET";
+"preset_stationary"           = "Stationary";
+"preset_stationary_desc"      = "1 Hz · −20 dBm · Indoor, static asset or person";
+"preset_walking"              = "Walking";
+"preset_walking_desc"         = "3 Hz · −12 dBm · Pedestrian, slow movement";
+"preset_running"              = "Running";
+"preset_running_desc"         = "5 Hz · −8 dBm · Athlete, fast movement";
+"preset_vehicle"              = "Vehicle";
+"preset_vehicle_desc"         = "10 Hz · 0 dBm · Car, forklift, large open space";
+
+/* ── Broadcast ──────────────────────────────────────────────────────── */
+"start_broadcast"             = "Start Broadcasting";
+"stop_broadcast"              = "Stop Broadcasting";
+"status_idle"                 = "Tap to broadcast as a Quuppa tag";
+"status_broadcasting"         = "Broadcasting · Quuppa locators tracking this device";
+
+/* ── QR screen ──────────────────────────────────────────────────────── */
+"qr_title"                    = "Tag QR Code";
+"qr_hint"                     = "Scan to share this Tag ID";
+"share"                       = "Share";
+
+/* ── Alerts ─────────────────────────────────────────────────────────── */
+"alert_bt_title"              = "Bluetooth Required";
+"alert_bt_message"            = "Enable Bluetooth in Settings to use this device as a Quuppa beacon.";
+"alert_no_id_title"           = "Tag ID Not Set";
+"alert_no_id_message"         = "Tap "Random" or "Manual" to set a Tag ID first.";
+"alert_invalid_id_title"      = "Invalid Tag ID";
+"alert_invalid_id_message"    = "Please enter exactly 12 hexadecimal characters (0–9, A–F).";
+"ok"                          = "OK";
+
+/* ── Onboarding ─────────────────────────────────────────────────────── */
+"ob_skip"                     = "Skip";
+"ob_next"                     = "Next";
+"ob_start"                    = "Get Started";
+"ob_0_title"                  = "Turn your iPhone into a Quuppa Tag";
+"ob_0_body"                   = "The Quuppa Intelligent Locating System uses BLE signals from your device to determine its precise indoor position in real time.";
+"ob_1_title"                  = "Set your Tag ID";
+"ob_1_body"                   = "Each device needs a unique 6-byte hex identifier.\nGenerate one randomly or type your own to match your Quuppa system.";
+"ob_2_title"                  = "Choose your Scene";
+"ob_2_body"                   = "Different environments need different signal settings.\nPick the preset that best matches how you will be moving.";
